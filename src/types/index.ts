@@ -24,7 +24,7 @@ export interface Application {
   id: string;
   jobId: string;
   userId: string;
-  status: 'pending' | 'reviewed' | 'accepted' | 'rejected';
+  status: 'pending' | 'reviewed' | 'accepted' | 'rejected' | 'approved';
   resumeUrl?: string;
   coverLetter?: string;
 }

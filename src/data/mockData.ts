@@ -107,7 +107,7 @@ export const mockUsers: User[] = [
     bio: 'Marketing specialist focused on digital strategies'
   }
 ]
-;
+  ;
 
 export const mockJobs: Job[] = [
   {
@@ -123,172 +123,148 @@ export const mockJobs: Job[] = [
     employmentType: 'full-time'
   },
   {
-    id: 2,
+    id: '2',
     title: "UX Designer",
     company: "Design Studio",
     location: "Remote",
     description: "Join our creative team as a UX Designer.",
     requirements: "3+ years of experience in UX design, proficiency in Figma.",
     salaryRange: "$90,000 - $120,000",
-    employerId: 3,
+    employerId: '3',
     industry: "Design",
     employmentType: "full-time"
   },
   {
-    id: 3,
+    id: '3',
     title: "Frontend Developer",
     company: "Tech Solutions",
     location: "New York, NY",
     description: "Seeking a skilled Frontend Developer to join our growing team.",
     requirements: "2+ years of experience in React.js, proficiency in HTML/CSS/JS.",
     salaryRange: "$80,000 - $110,000",
-    employerId: 4,
+    employerId: '4',
     industry: "Technology",
     employmentType: "full-time"
   },
   {
-    id: 4,
+    id: '4',
     title: "Backend Developer",
     company: "Innovative Labs",
     location: "San Francisco, CA",
     description: "Looking for an experienced Backend Developer to build scalable APIs.",
     requirements: "3+ years of experience in Node.js and MongoDB.",
     salaryRange: "$95,000 - $130,000",
-    employerId: 5,
+    employerId: '5',
     industry: "Software",
     employmentType: "full-time"
   },
   {
-    id: 5,
+    id: '5',
     title: "Full Stack Developer",
     company: "NextGen Tech",
     location: "Remote",
     description: "Join us as a Full Stack Developer and work on cutting-edge projects.",
     requirements: "4+ years experience with MERN stack.",
     salaryRange: "$100,000 - $140,000",
-    employerId: 6,
+    employerId: '6',
     industry: "Technology",
     employmentType: "full-time"
   },
   {
-    id: 6,
+    id: '6',
     title: "Graphic Designer",
     company: "Creative Minds",
     location: "Los Angeles, CA",
     description: "We are looking for a creative Graphic Designer.",
     requirements: "2+ years experience with Adobe Suite and branding.",
     salaryRange: "$65,000 - $85,000",
-    employerId: 7,
+    employerId: '7',
     industry: "Design",
     employmentType: "contract"
   },
   {
-    id: 7,
+    id: '7',
     title: "Project Manager",
     company: "Agile Solutions",
     location: "Chicago, IL",
     description: "Seeking an experienced Project Manager to oversee Agile teams.",
     requirements: "5+ years in project management, Agile certifications preferred.",
     salaryRange: "$95,000 - $125,000",
-    employerId: 8,
+    employerId: '8',
     industry: "Management",
     employmentType: "full-time"
   },
   {
-    id: 8,
+    id: '8',
     title: "Data Scientist",
     company: "Big Data Corp",
     location: "Remote",
     description: "Join our data team as a Data Scientist.",
     requirements: "3+ years of experience in Python, SQL, and machine learning.",
     salaryRange: "$110,000 - $150,000",
-    employerId: 9,
+    employerId: '9',
     industry: "Data Science",
     employmentType: "full-time"
   },
   {
-    id: 9,
+    id: '9',
     title: "Marketing Manager",
     company: "BrandBoost",
     location: "Miami, FL",
     description: "Looking for a Marketing Manager to lead campaigns.",
     requirements: "4+ years of marketing experience, strong analytical skills.",
     salaryRange: "$85,000 - $110,000",
-    employerId: 10,
+    employerId: '10',
     industry: "Marketing",
     employmentType: "full-time"
   },
   {
-    id: 10,
+    id: '10',
     title: "DevOps Engineer",
     company: "CloudTech",
     location: "Seattle, WA",
     description: "Hiring a DevOps Engineer to manage cloud infrastructure.",
     requirements: "3+ years experience in AWS, Docker, and Kubernetes.",
     salaryRange: "$100,000 - $130,000",
-    employerId: 11,
+    employerId: '11',
     industry: "Cloud Computing",
     employmentType: "full-time"
   },
   {
-    id: 11,
+    id: '11',
     title: "Business Analyst",
     company: "Insight Analytics",
     location: "Boston, MA",
     description: "Seeking a Business Analyst to drive data-driven decisions.",
     requirements: "2+ years of experience in business analysis and reporting.",
     salaryRange: "$75,000 - $95,000",
-    employerId: 12,
+    employerId: '12',
     industry: "Finance",
     employmentType: "full-time"
   },
   {
-    id: 12,
-    title: "Cybersecurity Specialist",
+    id: '12',
+    title: "Cybersecurity Analyst",
     company: "SecureTech",
-    location: "Austin, TX",
-    description: "Protect our systems as a Cybersecurity Specialist.",
-    requirements: "3+ years experience in security audits and risk management.",
-    salaryRange: "$90,000 - $120,000",
-    employerId: 13,
-    industry: "Cybersecurity",
-    employmentType: "full-time"
-  },
-  {
-    id: 13,
-    title: "HR Manager",
-    company: "PeopleFirst",
-    location: "Denver, CO",
-    description: "We are looking for an HR Manager to oversee talent acquisition.",
-    requirements: "5+ years of HR experience, SHRM certification preferred.",
-    salaryRange: "$80,000 - $100,000",
-    employerId: 14,
-    industry: "Human Resources",
-    employmentType: "full-time"
-  },
-  {
-    id: 14,
-    title: "Software Engineer",
-    company: "CodeCrafters",
     location: "Remote",
-    description: "Looking for a Software Engineer to develop innovative solutions.",
-    requirements: "3+ years experience in Python and Django.",
+    description: "Join our cybersecurity team as an Analyst.",
+    requirements: "3+ years experience in cybersecurity, knowledge of threat detection.",
     salaryRange: "$90,000 - $120,000",
-    employerId: 15,
-    industry: "Software",
+    employerId: '13',
+    industry: "Security",
     employmentType: "full-time"
   },
   {
-    id: 15,
+    id: '13',
     title: "Content Writer",
-    company: "MediaFlow",
-    location: "Remote",
-    description: "Hiring a creative Content Writer for blog and social media.",
-    requirements: "2+ years experience in content creation and SEO.",
-    salaryRange: "$50,000 - $70,000",
-    employerId: 16,
-    industry: "Media",
-    employmentType: "part-time"
+    company: "WordCraft",
+    location: "San Francisco, CA",
+    description: "Looking for a Content Writer to create engaging articles.",
+    requirements: "2+ years of content writing experience, SEO knowledge.",
+    salaryRange: "$60,000 - $80,000",
+    employerId: '14',
+    industry: "Writing",
+    employmentType: "full-time"
   }
 ];
 
@@ -325,8 +301,8 @@ export const mockApplications: Application[] = [
     id: '5',
     jobId: '4',
     userId: '9',
-    status: 'approved',
-    coverLetter: 'I believe my background in development fits this role...'
+    status: 'accepted',
+    coverLetter: 'I am thrilled to accept the offer to join your team...'
   },
   {
     id: '6',
